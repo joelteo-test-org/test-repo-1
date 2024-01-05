@@ -1,0 +1,5 @@
+name: Security Scans
+on: [pull_request, workflow_dispatch]
+jobs:
+  security_credentials:
+    uses: joelteo-poloniex/security-github-actions/.github/workflows/testNotification.yml@main
